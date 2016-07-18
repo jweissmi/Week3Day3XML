@@ -17,7 +17,7 @@ namespace Week3Day3XML
         string price;
         string publish_date;
         string description;
-
+        
         public string Id
         {
             get

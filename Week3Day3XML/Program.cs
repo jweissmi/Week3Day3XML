@@ -33,6 +33,14 @@ namespace Week3Day3XML
                 books.Add(book);
             }
             System.Console.WriteLine("Total books: " + books.Count);
+
+            
+            foreach (XmlNode xn in nodes)
+            {
+                Console.WriteLine(xn.InnerText.ToString());
+            }
+
+
             Console.ReadLine();
         }
     }
